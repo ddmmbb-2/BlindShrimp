@@ -5,7 +5,17 @@
 > *"看似在迴圈裡瞎忙，其實大腦算得比誰都精。"*
 
 **BlindShrimp** is an extremely lightweight, Flask-based AI Agent framework. Say goodbye to heavy wrappers like LangChain, and return to pure Python logic. It features a built-in decision engine (Planner), dynamic skill loading, persistent memory, and multimodal vision.
-**BlindShrimp (瞎忙蝦)** 是一個極度輕量、基於標準 Flask 打造的 AI Agent 框架。告別肥重的 LangChain，回歸最純粹的 Python 邏輯。只要單一檔案就能跑起具備決策大腦、動態技能加載、長期記憶與圖片辨識的本地端代理。
+**BlindShrimp (瞎忙蝦)** 是一個極度輕量、基於標準 Flask 打造的 AI Agent 框架。告別肥重的 LangChain 套件，回歸最純粹的 Python 邏輯。只要單一檔案就能跑起具備決策大腦、動態技能加載、長期記憶與圖片辨識的本地端代理。
+
+---
+
+## 💡 緣起與致敬 | Origin Story
+
+**Why build this? / 為什麼會寫這個專案？**
+
+I've been working on LLM RAG and context engineering for a while. While I understood the basic concepts of AI Agents, I never actually built a framework from scratch. It wasn't until I watched a brilliant and concise YouTube video by 飞天闪客: *[20 行代码彻底搞懂OpenClaw！](https://www.youtube.com/watch?v=WxDCQhKCS7g)* that everything clicked. The video explains the core principles of "Lobster" (OpenClaw) so perfectly that you fully understand it after just one watch. Combining that "Aha!" moment with my past prompt engineering experience, **BlindShrimp** was born.
+
+我之前一直在處理 LLM RAG 和上下文工程（Prompt Engineering），雖然大概知道 Agent 的底層邏輯，但一直沒自己動手刻一個框架。直到最近看了 YouTube 頻道「飞天闪客」的影片《[20 行代码彻底搞懂OpenClaw！](https://www.youtube.com/watch?v=WxDCQhKCS7g)》，影片把「龍蝦」(OpenClaw) 的底層原理解釋得超級簡單、精要。看完瞬間有種「對啊，就是這麼簡單！」的任督二脈被打通的感覺。因此，結合我過去的開發經驗，順手就寫出了這隻「瞎忙蝦」。
 
 ---
 
@@ -101,4 +111,3 @@ def execute(action_input):
 
 MIT License. See `LICENSE` for more information.
 本專案採用 MIT 授權條款。
-```
